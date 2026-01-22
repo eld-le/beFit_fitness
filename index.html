@@ -1,545 +1,615 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/exercise.png" />
     <title>Fitness Website</title>
 
     <!-- Font Awesome Cdn Link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
 
     <!-- Swiper Cdn Link  -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
 
     <!-- Custom Css File Link  -->
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
 
-    <body>
-        
-        <!-- Header Section Starts -->
+  <body>
+    <!-- Header Section Starts -->
 
-        <header class="header">
+    <header class="header">
+      <a href="#" class="logo"> <span>BE</span>FIT</a>
 
-            <a href="#" class="logo"> <span>BE</span>FIT</a>
+      <div id="menu-btn" class="fas fa-bars"></div>
 
-            <div id="menu-btn" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#features">features</a>
+        <a href="#pricing">pricing</a>
+        <a href="#trainers">trainers</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+    </header>
 
-            <nav class="navbar">
-                <a href="#home">home</a>
-                <a href="#about">about</a>
-                <a href="#features">features</a>
-                <a href="#pricing">pricing</a>
-                <a href="#trainers">trainers</a>
-                <a href="#blogs">blogs</a>
-            </nav>
+    <!-- Header Section Ends -->
 
-        </header>
+    <!-- Home Section Starts  -->
 
-        <!-- Header Section Ends -->
-
-        <!-- Home Section Starts  -->
-
-        <section class="home" id="home">
-
-            <div class="swiper home-slider">
-
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide slide" style="background: url(imgs/home-bg-1.jpg) no-repeat;">
-                        <div class="content">
-                            <span>be strong, be fit, unlock your potential</span>
-                            <h3>Make yourself stonger than you excuses.</h3>
-                            <a href="#" class="btn">get started</a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide slide" style="background: url(imgs/home-bg-2.jpg) no-repeat;">
-                        <div class="content">
-                            <span>be strong, be fit, unlock your potential</span>
-                            <h3>Make yourself stonger than you excuses.</h3>
-                            <a href="#" class="btn">get started</a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide slide" style="background: url(imgs/home-bg-3.jpg) no-repeat;">
-                        <div class="content">
-                            <span>be strong, be fit, unlock your potential</span>
-                            <h3>Make yourself stonger than you excuses.</h3>
-                            <a href="#" class="btn">get started</a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="swiper-pagination"></div>
-
-            </div>
-
-        </section>
-
-        <!-- Home Section Ends -->
-
-        <!-- About Section Starts  -->
-
-        <section class="about" id="about">
-
-            <div class="image">
-                <img src="imgs/about-img.jpg" alt="strong abonminal" title="strong abdominal">
-            </div>
-
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide slide"
+            style="background: url(imgs/home-bg-1.jpg) no-repeat"
+          >
             <div class="content">
-                <span>about us</span>
-                <h3 class="title"> Everyday is a chance to become better</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam repellendus quas assumenda a aliquid magni architecto illum eaque debitis.</p>
-
-                <div class="box-container">
-
-                    <div class="box">
-                        <h3><i class="fas fa-check"></i>body and mind</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, veniam.</p>
-                    </div>
-                    <div class="box">
-                        <h3><i class="fas fa-check"></i>healthy life</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, veniam.</p>
-                    </div>
-                    <div class="box">
-                        <h3><i class="fas fa-check"></i>strategies</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, veniam.</p>
-                    </div>
-                    <div class="box">
-                        <h3><i class="fas fa-check"></i>workout</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, veniam.</p>
-                    </div>
-                </div>
-                <a href="#" class="btn">read more</a>
+              <span>be strong, be fit, unlock your potential</span>
+              <h3>Make yourself stonger than you excuses.</h3>
+              <a href="#" class="btn">get started</a>
             </div>
+          </div>
 
-        </section>
-
-        <!-- About Section Ends -->
-
-        <!-- Features Section Starts -->
-
-        <section class="features" id="features">
-
-            <h1 class="heading"> <span>gym features</span> </h1>
-
-            <div class="box-container">
-                
-                <div class="box">
-                    <div class="image">
-                        <img src="imgs/f-img-1.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <img src="imgs/icon-1.png" alt="">
-                        <h3>body building</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, alias!</p>
-                        <a href="#" class="btn">read more</a>
-                    </div>
-                </div>
-
-                <div class="box second">
-                    <div class="image">
-                        <img src="imgs/f-img-2.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <img src="imgs/icon-2.png" alt="">
-                        <h3>gym for men</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, alias!</p>
-                        <a href="#" class="btn">read more</a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="image">
-                        <img src="imgs/f-img-3.jpg" alt="">
-                    </div>
-                    <div class="content">
-                        <img src="imgs/icon-3.png" alt="">
-                        <h3>gym for women</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, alias!</p>
-                        <a href="#" class="btn">read more</a> 
-                    </div>
-                </div>
-
+          <div
+            class="swiper-slide slide"
+            style="background: url(imgs/home-bg-2.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>be strong, be fit, unlock your potential</span>
+              <h3>Make yourself stonger than you excuses.</h3>
+              <a href="#" class="btn">get started</a>
             </div>
+          </div>
 
-        </section>
-
-        <!-- Feature Section Ends -->
-
-        <!-- Pricing Section Starts -->
-
-        <section class="pricing" id="pricing">
-            
-            <div class="information">
-                <span>pricing plan</span>
-                <h3>affordable pricing plan for you</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae in voluptatibus nam qui nihil. Dolorem illo delectus nobis nesciunt sint.</p>
-                <p><i class="fas fa-check"></i>personal training</p>
-                <p><i class="fas fa-check"></i>cardio exercise</p>
-                <p><i class="fas fa-check"></i>weight lifting</p>
-                <p><i class="fas fa-check"></i>diet plans</p>
-                <p><i class="fas fa-check"></i>overall results</p>
-                <a href="#" class="btn">all pricing</a>
+          <div
+            class="swiper-slide slide"
+            style="background: url(imgs/home-bg-3.jpg) no-repeat"
+          >
+            <div class="content">
+              <span>be strong, be fit, unlock your potential</span>
+              <h3>Make yourself stonger than you excuses.</h3>
+              <a href="#" class="btn">get started</a>
             </div>
+          </div>
+        </div>
 
-            <div class="plan basic">
-                <h3>basic plan</h3>
-                <div class="price"><span>$</span>30<span>/mo</span></div>
-                <div class="list">
-                    <p><i class="fas fa-check"></i>personal training</p>
-                    <p><i class="fas fa-check"></i>cardio exercise</p>
-                    <p><i class="fas fa-check"></i>weight lifting</p>
-                    <p><i class="fas fa-check"></i>diet plans</p>
-                    <p><i class="fas fa-check"></i>overall results</p>
-                </div>
-                <a href="#" class="btn">get started</a>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- Home Section Ends -->
+
+    <!-- About Section Starts  -->
+
+    <section class="about" id="about">
+      <div class="image">
+        <img
+          src="imgs/about-img.jpg"
+          alt="strong abonminal"
+          title="strong abdominal"
+        />
+      </div>
+
+      <div class="content">
+        <span>about us</span>
+        <h3 class="title">Everyday is a chance to become better</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ullam
+          repellendus quas assumenda a aliquid magni architecto illum eaque
+          debitis.
+        </p>
+
+        <div class="box-container">
+          <div class="box">
+            <h3><i class="fas fa-check"></i>body and mind</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              veniam.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-check"></i>healthy life</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              veniam.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-check"></i>strategies</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              veniam.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-check"></i>workout</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              veniam.
+            </p>
+          </div>
+        </div>
+        <a href="#" class="btn">read more</a>
+      </div>
+    </section>
+
+    <!-- About Section Ends -->
+
+    <!-- Features Section Starts -->
+
+    <section class="features" id="features">
+      <h1 class="heading"><span>gym features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="imgs/f-img-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <img src="imgs/icon-1.png" alt="" />
+            <h3>body building</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, alias!
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box second">
+          <div class="image">
+            <img src="imgs/f-img-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <img src="imgs/icon-2.png" alt="" />
+            <h3>gym for men</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, alias!
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="imgs/f-img-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <img src="imgs/icon-3.png" alt="" />
+            <h3>gym for women</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, alias!
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section Ends -->
+
+    <!-- Pricing Section Starts -->
+
+    <section class="pricing" id="pricing">
+      <div class="information">
+        <span>pricing plan</span>
+        <h3>affordable pricing plan for you</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae in
+          voluptatibus nam qui nihil. Dolorem illo delectus nobis nesciunt sint.
+        </p>
+        <p><i class="fas fa-check"></i>personal training</p>
+        <p><i class="fas fa-check"></i>cardio exercise</p>
+        <p><i class="fas fa-check"></i>weight lifting</p>
+        <p><i class="fas fa-check"></i>diet plans</p>
+        <p><i class="fas fa-check"></i>overall results</p>
+        <a href="#" class="btn">all pricing</a>
+      </div>
+
+      <div class="plan basic">
+        <h3>basic plan</h3>
+        <div class="price"><span>$</span>30<span>/mo</span></div>
+        <div class="list">
+          <p><i class="fas fa-check"></i>personal training</p>
+          <p><i class="fas fa-check"></i>cardio exercise</p>
+          <p><i class="fas fa-check"></i>weight lifting</p>
+          <p><i class="fas fa-check"></i>diet plans</p>
+          <p><i class="fas fa-check"></i>overall results</p>
+        </div>
+        <a href="#" class="btn">get started</a>
+      </div>
+
+      <div class="plan">
+        <h3>premium plan</h3>
+        <div class="price"><span>$</span>60<span>/mo</span></div>
+        <div class="list">
+          <p><i class="fas fa-check"></i>personal training</p>
+          <p><i class="fas fa-check"></i>cardio exercise</p>
+          <p><i class="fas fa-check"></i>weight lifting</p>
+          <p><i class="fas fa-check"></i>diet plans</p>
+          <p><i class="fas fa-check"></i>overall results</p>
+        </div>
+        <a href="#" class="btn">get started</a>
+      </div>
+    </section>
+
+    <!-- Pricing Section Ends -->
+
+    <!-- Trainers Section Starts -->
+
+    <section class="trainers" id="trainers">
+      <h1 class="heading"><span>expert trainers</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img
+            src="imgs/trainer-1.jpg"
+            alt="john, personal trainers"
+            title="john, personal trainers"
+          />
+          <div class="content">
+            <span>expert trainers</span>
+            <h3>john doe</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
             </div>
+          </div>
+        </div>
 
-            <div class="plan">
-                <h3>premium plan</h3>
-                <div class="price"><span>$</span>60<span>/mo</span></div>
-                <div class="list">
-                    <p><i class="fas fa-check"></i>personal training</p>
-                    <p><i class="fas fa-check"></i>cardio exercise</p>
-                    <p><i class="fas fa-check"></i>weight lifting</p>
-                    <p><i class="fas fa-check"></i>diet plans</p>
-                    <p><i class="fas fa-check"></i>overall results</p>
-                </div>
-                <a href="#" class="btn">get started</a>
+        <div class="box">
+          <img
+            src="imgs/trainer-2.jpg"
+            alt="joanna, personal trainers"
+            title="joana, personal trainers"
+          />
+          <div class="content">
+            <span>expert trainers</span>
+            <h3>joanna doe</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
             </div>
+          </div>
+        </div>
 
-        </section>
-
-        <!-- Pricing Section Ends -->
-
-        <!-- Trainers Section Starts -->
-
-        <section class="trainers" id="trainers">
-
-            <h1 class="heading"><span>expert trainers</span></h1>
-
-            <div class="box-container">
-
-                <div class="box">
-                    <img src="imgs/trainer-1.jpg" alt="john, personal trainers" title="john, personal trainers">
-                    <div class="content">
-                        <span>expert trainers</span>
-                        <h3>john doe</h3>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <img src="imgs/trainer-2.jpg" alt="joanna, personal trainers" title="joana, personal trainers">
-                    <div class="content">
-                        <span>expert trainers</span>
-                        <h3>joanna doe</h3>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <img src="imgs/tranier-3.jpg" alt="justin, one of our personal trianers" title="justin, personal trainers">
-                    <div class="content">
-                        <span>expert trainers</span>
-                        <h3>justin doe</h3>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <img src="imgs/trainer-4.jpg" alt="joslynn, personal trianers" title="joslynn, personal trainers">
-                    <div class="content">
-                        <span>expert trainers</span>
-                        <h3>joslynn doe</h3>
-                        <div class="share">
-                            <a href="#" class="fab fa-facebook-f"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-instagram"></a>
-                            <a href="#" class="fab fa-linkedin"></a>
-                        </div>
-                    </div>
-                </div>
-
+        <div class="box">
+          <img
+            src="imgs/tranier-3.jpg"
+            alt="justin, one of our personal trianers"
+            title="justin, personal trainers"
+          />
+          <div class="content">
+            <span>expert trainers</span>
+            <h3>justin doe</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
             </div>
+          </div>
+        </div>
 
-        </section>
-
-        <!-- Trainers Section Ends -->
-
-        <!-- Banner Section Starts  -->
-
-        <section class="banner">
-            <span>join us now</span>
-            <h3>get up to 50% discount</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae sit id voluptatem dolorem ipsa laudantium assumenda neque accusantium saepe ipsam.</p>
-            <a href="#" class="btn">get discount</a>  
-        </section>
-
-        <!-- Banner Section Ends -->
-
-        <!-- Review Section Starts -->
-
-        <section class="review">
-
-            <div class="information">
-                <span>testimonials</span>
-                <h3>what our clent have to say</h3>
-                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime sapiente reprehenderit veniam non expedita vitae culpa perferendis quae voluptatibus iure?</P>
-                <a href="#" class="btn">read more</a>
+        <div class="box">
+          <img
+            src="imgs/trainer-4.jpg"
+            alt="joslynn, personal trianers"
+            title="joslynn, personal trainers"
+          />
+          <div class="content">
+            <span>expert trainers</span>
+            <h3>joslynn doe</h3>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="swiper review-slider">
+    <!-- Trainers Section Ends -->
 
-                <div class="swiper-wrapper">
+    <!-- Banner Section Starts  -->
 
-                    <div class="swiper-slide slide">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, placeat.</p>
-                        <div class="user">
-                            <img src="imgs/pic.cp-1.avif" alt="">
-                            <div class="info">
-                                <h3>john doe</h3>
-                                <span>designer</span>
-                            </div>
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                    </div>
+    <section class="banner">
+      <span>join us now</span>
+      <h3>get up to 50% discount</h3>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae sit id
+        voluptatem dolorem ipsa laudantium assumenda neque accusantium saepe
+        ipsam.
+      </p>
+      <a href="#" class="btn">get discount</a>
+    </section>
 
+    <!-- Banner Section Ends -->
 
-                    <div class="swiper-slide slide">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, placeat.</p>
-                        <div class="user">
-                            <img src="imgs/pic.cp-2.avif" alt="">
-                            <div class="info">
-                                <h3>justine doe</h3>
-                                <span>photographer</span>
-                            </div>
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                    </div>
+    <!-- Review Section Starts -->
 
+    <section class="review">
+      <div class="information">
+        <span>testimonials</span>
+        <h3>what our clent have to say</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+          sapiente reprehenderit veniam non expedita vitae culpa perferendis
+          quae voluptatibus iure?
+        </p>
+        <a href="#" class="btn">read more</a>
+      </div>
 
-                    <div class="swiper-slide slide">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, placeat.</p>
-                        <div class="user">
-                            <img src="imgs/pic.cp-3.avif" alt="">
-                            <div class="info">
-                                <h3>justin doe</h3>
-                                <span>comedian</span>
-                            </div>
-                            <i class="fas fa-quote-left"></i>
-                        </div>
-                    </div>
-
-
-                    <div class="swiper-slide slide">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, placeat.</p>
-                        <div class="user">
-                            <img src="imgs/pic.cp-4.avif" alt="">
-                            <div class="info">
-                                <h3>janna doe</h3>
-                                <span>model</span>
-                            </div>
-                            <i class="fas fa-quote-left"></i>  
-                        </div>
-                    </div>
-
-                </div>
-
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              placeat.
+            </p>
+            <div class="user">
+              <img src="imgs/pic.cp-1.avif" alt="" />
+              <div class="info">
+                <h3>john doe</h3>
+                <span>designer</span>
+              </div>
+              <i class="fas fa-quote-left"></i>
             </div>
+          </div>
 
-        </section>
-
-        <!-- Review Section Ends -->
-
-        <!-- Blogs Section Starts -->
-
-        <section class="blogs" id="blogs">
-
-            <h1 class="heading"> <span>daily posts</span> </h1>
-
-            <div class="swiper blogs-slider">
-
-                <div class="swiper-wrapper">
-
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="imgs/blog-1.jpg" alt="dead lifts" title="dead lifts">
-                        </div>
-                        <div class="content">
-                            <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">1st, june, 2023</a> </div>
-                            <h3>fitness is not about being better than someone else</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nisi.</p>
-                            <a href="#" class="btn">read more</a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="imgs/blog-2.jpg" alt="over head shoulder press" title="over head shoulder press">
-                        </div>
-                        <div class="content">
-                            <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">1st, june, 2023</a> </div>
-                            <h3>fitness is not about being better than someone else</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nisi.</p>
-                            <a href="#" class="btn">read more</a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="imgs/blog-3.jpg" alt="lifting weights" title="lifting weights">
-                        </div>
-                        <div class="content">
-                            <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">1st, june, 2023</a> </div>
-                            <h3>fitness is not about being better than someone else</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nisi.</p>
-                            <a href="#" class="btn">read more</a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="imgs/blog-4.jpg" alt="one on one personal training" title="one on one personal training">
-                        </div>
-                        <div class="content">
-                            <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">1st, june, 2023</a> </div>
-                            <h3>fitness is not about being better than someone else</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nisi.</p>
-                            <a href="#" class="btn">read more</a>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide slide">
-                        <div class="image">
-                            <img src="imgs/blog-5.jpg" alt="woman lifing weights" title="woman lifing weights">
-                        </div>
-                        <div class="content">
-                            <div class="link"> <a href="#">by user</a> <span>|</span> <a href="#">1st, june, 2023</a> </div>
-                            <h3>fitness is not about being better than someone else</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nisi.</p>
-                            <a href="#" class="btn">read more</a>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="swiper-pagination"></div>
-
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              placeat.
+            </p>
+            <div class="user">
+              <img src="imgs/pic.cp-2.avif" alt="" />
+              <div class="info">
+                <h3>justine doe</h3>
+                <span>photographer</span>
+              </div>
+              <i class="fas fa-quote-left"></i>
             </div>
+          </div>
 
-        </section>
-
-        <!-- Blogs Section Ends -->
-
-        <!-- Footer Section Starts  -->
-
-        <section class="footer">
-
-            <div class="box-container">
-
-                <div class="box">
-                    <h3>quick links</h3>
-                    <a class="links" href="#home">home</a>
-                    <a class="links" href="#about">about</a>
-                    <a class="links" href="#features">features</a>
-                    <a class="links" href="#pricing">pricing</a>
-                    <a class="links" href="#trainers">trainers</a>
-                    <a class="links" href="#blogs">blogs</a>
-                </div>
-
-                <div class="box">
-                    <h3>opening hours</h3>
-                    <p>monday : <i> 7:00am - 10:30pm</i> </p>
-                    <p>tuesday : <i> 7:00am - 10:30pm</i> </p>
-                    <p>wednesday : <i> 7:00am - 10:30pm</i> </p>
-                    <p>thursday : <i> 7:00am - 10:30pm</i> </p>
-                    <p>friday : <i> 7:00am - 10:30pm</i> </p>
-                    <p>saturday : <i> 7:00am - 10:30pm</i> </p>
-                    <p>sunday : <i> 8:00am - 9:30pm</i> </p>
-                </div>
-
-                <div class="box">
-                    <h3>opening hours</h3>
-                    <p> <i class="fas fa-phone"></i> +123-456-7890 </p>
-                    <p> <i class="fas fa-phone"></i> +111-222-3333 </p>
-                    <p> <i class="fas fa-envelope"></i> befit.beyou1@gmail.com </p>
-                    <p> <i class="fas fa-map"></i> 20 W 34th St., New York, NY 10001 </p>
-                    <div class="share">
-                        <a href="#" class="fab fa-facebook-f"></a>
-                        <a href="#" class="fab fa-twitter"></a>
-                        <a href="#" class="fab fa-instagram"></a>
-                        <a href="#" class="fab fa-linkedin"></a>
-                    </div>
-                </div>
-
-                <div class="box">
-                    <h3>newsletter</h3> 
-                    <p>subscribe for the lastest updates</p>
-                    <form action="">
-                        <input type="email" name="" class="email" placeholder="enter your email" id="">
-                        <input type="submit" value="subscribe" class="btn">
-                    </form>
-                </div>
-
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              placeat.
+            </p>
+            <div class="user">
+              <img src="imgs/pic.cp-3.avif" alt="" />
+              <div class="info">
+                <h3>justin doe</h3>
+                <span>comedian</span>
+              </div>
+              <i class="fas fa-quote-left"></i>
             </div>
+          </div>
 
-        </section>
+          <div class="swiper-slide slide">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+              placeat.
+            </p>
+            <div class="user">
+              <img src="imgs/pic.cp-4.avif" alt="" />
+              <div class="info">
+                <h3>janna doe</h3>
+                <span>model</span>
+              </div>
+              <i class="fas fa-quote-left"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <div class="credit"> created by <span>be</span>Fit | all rights reserved! </div>
+    <!-- Review Section Ends -->
 
-        <!-- Footer Section Ends -->
+    <!-- Blogs Section Starts -->
 
+    <section class="blogs" id="blogs">
+      <h1 class="heading"><span>daily posts</span></h1>
 
+      <div class="swiper blogs-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img src="imgs/blog-1.jpg" alt="dead lifts" title="dead lifts" />
+            </div>
+            <div class="content">
+              <div class="link">
+                <a href="#">by user</a> <span>|</span>
+                <a href="#">1st, june, 2023</a>
+              </div>
+              <h3>fitness is not about being better than someone else</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                nisi.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
 
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img
+                src="imgs/blog-2.jpg"
+                alt="over head shoulder press"
+                title="over head shoulder press"
+              />
+            </div>
+            <div class="content">
+              <div class="link">
+                <a href="#">by user</a> <span>|</span>
+                <a href="#">1st, june, 2023</a>
+              </div>
+              <h3>fitness is not about being better than someone else</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                nisi.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
 
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img
+                src="imgs/blog-3.jpg"
+                alt="lifting weights"
+                title="lifting weights"
+              />
+            </div>
+            <div class="content">
+              <div class="link">
+                <a href="#">by user</a> <span>|</span>
+                <a href="#">1st, june, 2023</a>
+              </div>
+              <h3>fitness is not about being better than someone else</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                nisi.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
 
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img
+                src="imgs/blog-4.jpg"
+                alt="one on one personal training"
+                title="one on one personal training"
+              />
+            </div>
+            <div class="content">
+              <div class="link">
+                <a href="#">by user</a> <span>|</span>
+                <a href="#">1st, june, 2023</a>
+              </div>
+              <h3>fitness is not about being better than someone else</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                nisi.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
 
+          <div class="swiper-slide slide">
+            <div class="image">
+              <img
+                src="imgs/blog-5.jpg"
+                alt="woman lifing weights"
+                title="woman lifing weights"
+              />
+            </div>
+            <div class="content">
+              <div class="link">
+                <a href="#">by user</a> <span>|</span>
+                <a href="#">1st, june, 2023</a>
+              </div>
+              <h3>fitness is not about being better than someone else</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem,
+                nisi.
+              </p>
+              <a href="#" class="btn">read more</a>
+            </div>
+          </div>
+        </div>
 
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
 
+    <!-- Blogs Section Ends -->
 
+    <!-- Footer Section Starts  -->
 
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>quick links</h3>
+          <a class="links" href="#home">home</a>
+          <a class="links" href="#about">about</a>
+          <a class="links" href="#features">features</a>
+          <a class="links" href="#pricing">pricing</a>
+          <a class="links" href="#trainers">trainers</a>
+          <a class="links" href="#blogs">blogs</a>
+        </div>
 
+        <div class="box">
+          <h3>opening hours</h3>
+          <p>monday : <i> 7:00am - 10:30pm</i></p>
+          <p>tuesday : <i> 7:00am - 10:30pm</i></p>
+          <p>wednesday : <i> 7:00am - 10:30pm</i></p>
+          <p>thursday : <i> 7:00am - 10:30pm</i></p>
+          <p>friday : <i> 7:00am - 10:30pm</i></p>
+          <p>saturday : <i> 7:00am - 10:30pm</i></p>
+          <p>sunday : <i> 8:00am - 9:30pm</i></p>
+        </div>
 
+        <div class="box">
+          <h3>opening hours</h3>
+          <p><i class="fas fa-phone"></i> +123-456-7890</p>
+          <p><i class="fas fa-phone"></i> +111-222-3333</p>
+          <p><i class="fas fa-envelope"></i> befit.beyou1@gmail.com</p>
+          <p><i class="fas fa-map"></i> 20 W 34th St., New York, NY 10001</p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
 
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for the lastest updates</p>
+          <form action="">
+            <input
+              type="email"
+              name=""
+              class="email"
+              placeholder="enter your email"
+              id=""
+            />
+            <input type="submit" value="subscribe" class="btn" />
+          </form>
+        </div>
+      </div>
+    </section>
 
+    <div class="credit">
+      created by <span>be</span>Fit | all rights reserved!
+    </div>
 
+    <!-- Footer Section Ends -->
 
+    <!-- Swiper JS Link  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-        <!-- Swiper JS Link  -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
-        <!-- Custom JS File Link -->
-        <script src="js/main.js" defer></script>
-    </body>
-
+    <!-- Custom JS File Link -->
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
